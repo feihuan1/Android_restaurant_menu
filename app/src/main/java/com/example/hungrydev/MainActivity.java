@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         startersCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent startersActivityIntent = new Intent(MainActivity.this, StartersActivity.class);
 
                 startActivity(startersActivityIntent);
